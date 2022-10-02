@@ -3,9 +3,7 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-
-
-
+ 
 
 //------------------------------------------------------------------------------
 // Don't change the code below: this function mocks the server response
@@ -23,3 +21,12 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
     }, 300);
   });
 }
+
+document .getElementById('modal').hidden = true;
+
+
+EMPTY_HEART.addEventListener('click',mimicServerCall.catch(() =>{
+setTimeout(document .getElementById('modal').hidden= false,3);
+}
+
+).then());
